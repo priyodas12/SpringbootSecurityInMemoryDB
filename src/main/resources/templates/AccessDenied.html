@@ -8,10 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Welcome to All Authenticated User(Authentication Successful)</h2>
-    <a th:href="@{/admin}">ADMIN</a>
-    <a th:href="@{/emp}">EMPLOYEE</a>
-    <a th:href="@{/clerk}">CLERK</a><br>
+    <h2>You are not Authorised to visit this page, Please sign out and provide correct credentials</h2>
     <a th:href="@{/logout}">Sign out</a>
- </body>
+    <a th:href="@{/welcome}">Welcome</a>
+</body>
 </html>

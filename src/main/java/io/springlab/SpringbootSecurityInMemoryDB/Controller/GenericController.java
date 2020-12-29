@@ -33,4 +33,9 @@ public class GenericController {
     public String gotoClerkPage(){
         return "ClerkPage";
     }
+
+    @RequestMapping(method = RequestMethod.GET ,value ="/no-access")
+    public String accessDenied(){
+        return "AccessDenied";
+    }
 }
